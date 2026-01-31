@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+
+//port number
 const PORT = process.env.PORT || 3000;
 
 // GET handler for root URL
